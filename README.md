@@ -26,7 +26,7 @@ LIRI is a command line node app that takes in parameters and returns data based 
   - The album that the song is from
   - Or if no song is passed through, it will default to *"The Sign" by Ace of Base*
 
-1. **node liri.js movie-this** <movie name>
+2. **node liri.js movie-this** <movie name>
 
 - Shows the following information in terminal/bash.
 
@@ -47,13 +47,13 @@ LIRI is a command line node app that takes in parameters and returns data based 
   - Or if no movie is passed through, it will default to *"Mr. Nobody"*
 
 
-1. **node liri.js do-what-it-says**
+3. **node liri.js do-what-it-says**
 
 - Takes the text from random.txt and runs the song through spotify-this-song command
 
 
 
-1. **node liri.js concert-this** <artist/band name>
+4. **node liri.js concert-this** <artist/band name>
 
 - Shows the following information in terminal/bash
   - Venue name
