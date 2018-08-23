@@ -16,7 +16,7 @@ var searchedItem = process.argv[3];
 
 
 function getSpotify(searchedItem){
-    var songName = searchedItem || "I Want It That Way";
+    var songName = searchedItem || "The Sign";
 
 	spotify.search({ type: 'track', query: songName }, function(err, data) {
 		  if (err) {
